@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#007bff">
+    <title>ESP32-CAM App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Captura de Imagen y GPS</h1>
+        <div id="image-container">
+            <img id="captured-image" src="" alt="Imagen Capturada">
+        </div>
+        <div id="coordinates">
+            <p>Latitud: <span id="lat">No disponible</span></p>
+            <p>Longitud: <span id="lon">No disponible</span></p>
+            <p>Altitud: <span id="alt">No disponible</span></p>
+        </div>
+        <button id="capture-btn">Capturar Imagen</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
