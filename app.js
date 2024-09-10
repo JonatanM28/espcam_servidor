@@ -1,5 +1,5 @@
 document.getElementById('capture-btn').addEventListener('click', async function () {
-    const esp32Url = 'http://<IP_ESP32>/capture'; // Reemplaza con la IP de tu ESP32-CAM
+    const esp32Url = 'http://<IP_ESP32>/capture'; // Coloca la IP de tu ESP32-CAM
 
     try {
         // Hacer una solicitud al servidor ESP32-CAM
